@@ -1,9 +1,9 @@
-####Live Project
+#### Live Project
 
 My last three weeks as tech academy I was blessed with the opportunity to work on a real live project. This gave me exposure to project management and team work. I was working with a team of 8-10 other people on an ASP.NET MVC Entity-Framework Code First App. Because the framework was already established I did not have any HTML I was about to do but I got to work on both Front end and back end stories during the three sprints of the project. I also stumbled into quite a few bugs and other learning things not directly related to my storied of code. 
 Below I will should you some of the code I did in Front End, Back End as well as one of the bugs. 
 
-##Front End
+## Front End
 
 Throughout my time on Live Project I was able to do varies little stories to improve the look of the website like adding CSS (or removing for that matter) to make columns look the same height despite the content within them as well as width so it looked nice and uniform. However the thing I did that was the biggest change was adding a Javascript page preloader animation.
 
@@ -51,7 +51,7 @@ I also returned and removed functionality of buttons to the Company News views.
                     </tr>
                 }`
 				
-##Back End
+## Back End
 
 The first back end story I worked on was to change CalEvents to CalendarEvents throughout the entire project. This meant going through and changing all references including the database. Through this story I learned how migration works and how our project was set to automigrate. With a simple command of update-database in the NuGet package console the database was usually fixed and code working. I used this a lot in my time on live project. 
 
@@ -87,8 +87,8 @@ The first back end story I worked on was to change CalEvents to CalendarEvents t
                         v.End = e.End;
                         v.Description = e.Description;
 			}
-			
-`I learned about SignalR and how to create and work with a Chat modal. In our project the chat modal was already created but was not functioning so I reviews the code and analyzed how SignalR works and realized at the same time as the project managed that the story was unnecessary as the reason it was not working it because we have to have username to use the modal. So I worked on implementing a user into the Seed data. This gave the database information so that the team could test the site with the created users. 
+`			
+I learned about SignalR and how to create and work with a Chat modal. In our project the chat modal was already created but was not functioning so I reviews the code and analyzed how SignalR works and realized at the same time as the project managed that the story was unnecessary as the reason it was not working it because we have to have username to use the modal. So I worked on implementing a user into the Seed data. This gave the database information so that the team could test the site with the created users. 
 
 
 `//HARD CODE USER
@@ -142,7 +142,7 @@ Although I felt like I was doing a little of everything everywhere I realized in
             </div>
         </div>*@`
 			
-##Other 
+## Other 
 
 From the very first day on Live project I was finding bugs or issues to resolve. On my first day I could not assess the project because it was written in Visual Studio 2017 and I was using the newer version 2019. They bosses believed it would be ok but found out that was not the case and after spending the whole day with everyone looking as the code to see why it would not work they finally just had me install the older version of VS. Then I stumble into another issue with the above code (changing calEvents) that revealed a need to restructure the whole database. And lastly I when I worked on the auto date of company news I worked around the bug when the buttons were not working if you logged in and exposed this to the project manager who thought originally it was just my branch, later we found it was a bigger bug that the whole team was having issues with however the new members were not communicating well. I was able to find and fix the small button issue but it exposed more troubles and hopefully helped to get the team talking more. 
 Here is the fix I made.
