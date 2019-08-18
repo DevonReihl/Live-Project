@@ -1,4 +1,4 @@
-#### Live Project
+# Live Project
 
 My last three weeks as tech academy I was blessed with the opportunity to work on a real live project. This gave me exposure to project management and team work. I was working with a team of 8-10 other people on an ASP.NET MVC Entity-Framework Code First App. Because the framework was already established I did not have any HTML I was about to do but I got to work on both Front end and back end stories during the three sprints of the project. I also stumbled into quite a few bugs and other learning things not directly related to my storied of code. 
 Below I will should you some of the code I did in Front End, Back End as well as one of the bugs. 
